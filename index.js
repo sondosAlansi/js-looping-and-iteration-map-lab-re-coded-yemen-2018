@@ -10,11 +10,14 @@ function lowerCaseDrivers(drivers){
 }
 
 function nameToAttributes(drivers){
-  const names=[];
+   const firstNam;
+   const lastName;
   for(const drive of drivers){
     
    
-   Object.assign({}, drive, { firstName: '',lastName:'' });
+  firstName = drive.split(' ')[0];
+  lastName = drive.split(' ')[1];
+      }
   }
-  return 
+ return {firstName: firstName, lastName: lastName
 }
