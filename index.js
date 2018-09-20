@@ -18,8 +18,9 @@ function nameToAttributes(drivers){
   firstName = drive.split(' ')[0];
   lastName = drive.split(' ')[1];
       }
+      return {firstName: firstName, lastName: lastName}
   }
-// return {firstName: firstName, lastName: lastName}
+// 
 
 
 function attributesToPhrase(drivers){
