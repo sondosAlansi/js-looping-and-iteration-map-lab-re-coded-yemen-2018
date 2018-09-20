@@ -15,10 +15,10 @@ function nameToAttributes(drivers){
   for(const drive of drivers){
     
    
-  firstName = drive.split(' ')[0];
-  lastName = drive.split(' ')[1];
+  //firstName = drive.split(' ')[0];
+  //lastName = drive.split(' ')[1];
       }
-      return {firstName: firstName, lastName: lastName}
+      //return {firstName: firstName, lastName: lastName}
   }
 // 
 
