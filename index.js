@@ -24,5 +24,7 @@ function nameToAttributes(drivers){
 
 
 function attributesToPhrase(drivers){
-  return drivers.map(function(drive){})
+  return drivers.map(function(drive){
+    return ""+drive+""
+  })
 }
