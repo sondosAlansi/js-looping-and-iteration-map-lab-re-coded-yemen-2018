@@ -10,8 +10,8 @@ function lowerCaseDrivers(drivers){
 }
 
 function nameToAttributes(drivers){
-   const firstNam;
-   const lastName;
+   let firstNam;
+   let lastName;
   for(const drive of drivers){
     
    
